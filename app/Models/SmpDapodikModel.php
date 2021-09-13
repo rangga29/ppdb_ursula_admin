@@ -108,11 +108,14 @@ class SmpDapodikModel extends Model
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
 
-    public function getSmp($smp_id)
+    public function getDapodik($smp_id = false)
     {
+        if($smp_id == false) {
+            return $this->findAll();
+        }
         return $this->where([
             'smp_id' => $smp_id,
-            'deleted_at' => null,
+            'deleted_at' => null
         ])->first();
     }
 }

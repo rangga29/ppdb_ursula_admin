@@ -9,7 +9,6 @@ use App\Models\TbtkKeuanganModel;
 use App\Models\TbtkPembayaranModel;
 use App\Models\TbtkPernyataanModel;
 
-
 class Siswa_tbtk extends BaseController
 {
     protected $tbtkModel;
@@ -47,28 +46,28 @@ class Siswa_tbtk extends BaseController
                 'navbar' => 'siswa_tbtk',
                 'tbtk' => $this->tbtkModel->getSiswa()
             ];
-            return view('tbtk/excel_data_pendaftaran_tab1', $data);
+            return view('tbtk/excel/excel_data_pendaftaran_tab1', $data);
         } else if($tab === '2') {
             $data = [
                 'title' => 'Data Pendaftaran Calon Peserta Didik TB TK (Belum Verifikasi)',
                 'navbar' => 'siswa_tbtk',
                 'tbtk' => $this->tbtkModel->getSiswa()
             ];
-            return view('tbtk/excel_data_pendaftaran_tab2', $data);
+            return view('tbtk/excel/excel_data_pendaftaran_tab2', $data);
         } else if($tab === '3') {
             $data = [
                 'title' => 'Data Pendaftaran Calon Peserta Didik TB TK (Diterima)',
                 'navbar' => 'siswa_tbtk',
                 'tbtk' => $this->tbtkModel->getSiswa()
             ];
-            return view('tbtk/excel_data_pendaftaran_tab3', $data);
+            return view('tbtk/excel/excel_data_pendaftaran_tab3', $data);
         } else if($tab === '4') {
             $data = [
                 'title' => 'Data Pendaftaran Calon Peserta Didik TB TK (Tidak Diterima)',
                 'navbar' => 'siswa_tbtk',
                 'tbtk' => $this->tbtkModel->getSiswa()
             ];
-            return view('tbtk/excel_data_pendaftaran_tab4', $data);
+            return view('tbtk/excel/excel_data_pendaftaran_tab4', $data);
         }
     }
 
@@ -172,7 +171,7 @@ class Siswa_tbtk extends BaseController
 			'navbar' => 'siswa_tbtk',
             'tbtk' => $this->tbtkModel->getBeasiswa()->getResult()
 		];
-		return view('tbtk/excel_data_beasiswa', $data);
+		return view('tbtk/excel/excel_data_beasiswa', $data);
     }
 
     public function tambah_data_beasiswa($slug_nama_lengkap)

@@ -66,10 +66,25 @@
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item">
-                            <a href="/siswa_sd/internal">Internal</a>
+                            <a href="/siswa_sd/data_pendaftaran">Data Pendaftaran</a>
                         </li>
                         <li class="submenu-item">
-                            <a href="/siswa_sd/external">External</a>
+                            <a href="/siswa_sd/internal">Data Internal</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_sd/external">Data External</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_sd/data_beasiswa">Data Beasiswa</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_sd/data_dapodik">Data Dapodik</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_sd/data_pernyataan">Data Pernyataan</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_sd/data_keuangan">Data Keuangan</a>
                         </li>
                     </ul>
                 </li>
@@ -83,10 +98,25 @@
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item">
-                            <a href="/siswa_smp/internal">Internal</a>
+                            <a href="/siswa_smp/data_pendaftaran">Data Pendaftaran</a>
                         </li>
                         <li class="submenu-item">
-                            <a href="/siswa_smp/external">External</a>
+                            <a href="/siswa_smp/internal">Data Internal</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_smp/external">Data External</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_smp/data_beasiswa">Data Beasiswa</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_smp/data_dapodik">Data Dapodik</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_smp/data_pernyataan">Data Pernyataan</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="/siswa_smp/data_keuangan">Data Keuangan</a>
                         </li>
                     </ul>
                 </li>

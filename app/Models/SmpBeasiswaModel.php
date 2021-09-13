@@ -18,8 +18,13 @@ class SmpBeasiswaModel extends Model
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
 
-    public function getBeasiswa($smp_id)
+    public function getBeasiswa($smp_id = false)
     {
+        if($smp_id == false) {
+            return $this->where([
+                'deleted_at' => null
+            ])->findAll();
+        }
         return $this->where([
             'smp_id' => $smp_id,
             'deleted_at' => null,

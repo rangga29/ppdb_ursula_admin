@@ -44,10 +44,15 @@
                             <td><?= $i++ ?></td>
                             <td><?= $siswa_tbtk->no_registrasi ?></td>
 
-                            <td><a
+                            <td>
+                                <?php if($siswa_tbtk->status_dapodik !== '1') { ?>
+                                <a
                                     href="<?= base_url('siswa_tbtk/detail_data_dapodik/' . $siswa_tbtk->slug_nama_lengkap) ?>">
                                     <?= $siswa_tbtk->nama_lengkap ?>
                                 </a>
+                                <?php } else { ?>
+                                <?= $siswa_tbtk->nama_lengkap ?>
+                                <?php } ?>
                             </td>
 
                             <?php 

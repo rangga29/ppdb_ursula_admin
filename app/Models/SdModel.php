@@ -138,4 +138,13 @@ class SdModel extends Model
                 ->groupEnd();
         return $builder->get();
     }
+
+    public function getBeasiswa()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('sd');
+        $builder->select('*');
+        $builder->join('sd_beasiswa', 'sd_beasiswa.sd_id = sd.id', 'left outer');
+        return $builder->get();
+    }
 }

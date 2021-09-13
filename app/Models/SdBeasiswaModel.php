@@ -18,8 +18,13 @@ class SdBeasiswaModel extends Model
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
 
-    public function getBeasiswa($sd_id)
+    public function getBeasiswa($sd_id = false)
     {
+        if($sd_id == false) {
+            return $this->where([
+                'deleted_at' => null
+            ])->findAll();
+        }
         return $this->where([
             'sd_id' => $sd_id,
             'deleted_at' => null,

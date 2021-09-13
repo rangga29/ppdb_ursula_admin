@@ -147,4 +147,13 @@ class SmpModel extends Model
                 ->groupEnd();
         return $builder->get();
     }
+
+    public function getBeasiswa()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('smp');
+        $builder->select('*');
+        $builder->join('smp_beasiswa', 'smp_beasiswa.smp_id = smp.id', 'left outer');
+        return $builder->get();
+    }
 }

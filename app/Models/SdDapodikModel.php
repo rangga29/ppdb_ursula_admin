@@ -108,11 +108,14 @@ class SdDapodikModel extends Model
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
 
-    public function getSd($sd_id)
+    public function getDapodik($sd_id = false)
     {
+        if($sd_id == false) {
+            return $this->findAll();
+        }
         return $this->where([
             'sd_id' => $sd_id,
-            'deleted_at' => null,
+            'deleted_at' => null
         ])->first();
     }
 }

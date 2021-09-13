@@ -54,10 +54,15 @@
                             ?>
                             <td><?= $tingkat ?></td>
 
-                            <td><a href="https://localhost:8083/tbtk/surat_pernyataan/<?= $siswa_tbtk->slug_nama_lengkap ?>"
+                            <td>
+                                <?php if($siswa_tbtk->status_pernyataan !== '1') { ?>
+                                <a href="https://localhost:8083/tbtk/surat_pernyataan/<?= $siswa_tbtk->slug_nama_lengkap ?>"
                                     target="_blank">
                                     Surat Pernyataan
                                 </a>
+                                <?php } else { ?>
+                                Surat Pernyataan
+                                <?php } ?>
                             </td>
 
                             <?php if($siswa_tbtk->status_pernyataan === '1') { ?>
