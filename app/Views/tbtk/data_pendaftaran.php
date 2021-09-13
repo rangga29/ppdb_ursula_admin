@@ -47,7 +47,10 @@
                         <table class="table table-lg table-bordered table-striped table-responsive" id="table1">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="" class="btn btn-lg btn-primary btn-block">Export CSV</a>
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/1" target="_blank"
+                                        class="btn btn-lg btn-primary btn-block">
+                                        Export CSV
+                                    </a>
                                 </div>
                             </div><br>
                             <thead>
@@ -85,15 +88,15 @@
                                     <td><?= $siswa_tbtk->asal_sekolah ?></td>
 
                                     <?php 
-                                $tingkat = 'tingkat';
-                                if($siswa_tbtk->pilihan_tingkat === '1') {
-                                    $tingkat = 'TB';
-                                } else if($siswa_tbtk->pilihan_tingkat === '2') {
-                                    $tingkat = 'TK A';
-                                } else {
-                                    $tingkat = 'TK B';
-                                }
-                            ?>
+                                        $tingkat = 'tingkat';
+                                        if($siswa_tbtk->pilihan_tingkat === '1') {
+                                            $tingkat = 'TB';
+                                        } else if($siswa_tbtk->pilihan_tingkat === '2') {
+                                            $tingkat = 'TK A';
+                                        } else {
+                                            $tingkat = 'TK B';
+                                        }
+                                    ?>
                                     <td><?= $tingkat ?></td>
 
                                     <?php if(in_groups('admin_yayasan')) : ?>
@@ -158,10 +161,13 @@
                         </table>
                     </div>
                     <div class="tab-pane fade" id="tbtk2" role="tabpanel" aria-labelledby="tbtk2-tab">
-                        <table class="table table-lg table-bordered table-striped table-responsive" id="table1">
+                        <table class="table table-lg table-bordered table-striped table-responsive" id="table2">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="" class="btn btn-lg btn-primary btn-block">Export CSV</a>
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/2" target="_blank"
+                                        class="btn btn-lg btn-primary btn-block">
+                                        Export CSV
+                                    </a>
                                 </div>
                             </div><br>
                             <thead>
@@ -274,10 +280,13 @@
                         </table>
                     </div>
                     <div class="tab-pane fade" id="tbtk3" role="tabpanel" aria-labelledby="tbtk3-tab">
-                        <table class="table table-lg table-bordered table-striped table-responsive" id="table1">
+                        <table class="table table-lg table-bordered table-striped table-responsive" id="table3">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="" class="btn btn-lg btn-primary btn-block">Export CSV</a>
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/3" target="_blank"
+                                        class="btn btn-lg btn-primary btn-block">
+                                        Export CSV
+                                    </a>
                                 </div>
                             </div><br>
                             <thead>
@@ -390,10 +399,13 @@
                         </table>
                     </div>
                     <div class="tab-pane fade" id="tbtk4" role="tabpanel" aria-labelledby="tbtk4-tab">
-                        <table class="table table-lg table-bordered table-striped table-responsive" id="table1">
+                        <table class="table table-lg table-bordered table-striped table-responsive" id="table4">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="" class="btn btn-lg btn-primary btn-block">Export CSV</a>
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/4" target="_blank"
+                                        class="btn btn-lg btn-primary btn-block">
+                                        Export CSV
+                                    </a>
                                 </div>
                             </div><br>
                             <thead>

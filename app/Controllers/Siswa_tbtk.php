@@ -39,6 +39,39 @@ class Siswa_tbtk extends BaseController
 		return view('tbtk/data_pendaftaran', $data);
 	}
 
+    public function excel_data_pendaftaran($tab)
+    {
+        if($tab === '1') {
+            $data = [
+                'title' => 'Data Pendaftaran Calon Peserta Didik TB TK (Semua Data)',
+                'navbar' => 'siswa_tbtk',
+                'tbtk' => $this->tbtkModel->getSiswa()
+            ];
+            return view('tbtk/excel_data_pendaftaran_tab1', $data);
+        } else if($tab === '2') {
+            $data = [
+                'title' => 'Data Pendaftaran Calon Peserta Didik TB TK (Belum Verifikasi)',
+                'navbar' => 'siswa_tbtk',
+                'tbtk' => $this->tbtkModel->getSiswa()
+            ];
+            return view('tbtk/excel_data_pendaftaran_tab2', $data);
+        } else if($tab === '3') {
+            $data = [
+                'title' => 'Data Pendaftaran Calon Peserta Didik TB TK (Diterima)',
+                'navbar' => 'siswa_tbtk',
+                'tbtk' => $this->tbtkModel->getSiswa()
+            ];
+            return view('tbtk/excel_data_pendaftaran_tab3', $data);
+        } else if($tab === '4') {
+            $data = [
+                'title' => 'Data Pendaftaran Calon Peserta Didik TB TK (Tidak Diterima)',
+                'navbar' => 'siswa_tbtk',
+                'tbtk' => $this->tbtkModel->getSiswa()
+            ];
+            return view('tbtk/excel_data_pendaftaran_tab4', $data);
+        }
+    }
+
     public function detail($slug_nama_lengkap)
     {
         $tbtk = $this->tbtkModel->getSiswa($slug_nama_lengkap);
@@ -130,6 +163,16 @@ class Siswa_tbtk extends BaseController
             'tbtk' => $this->tbtkModel->getBeasiswa()->getResult()
 		];
 		return view('tbtk/data_beasiswa', $data);
+    }
+
+    public function excel_data_beasiswa()
+    {
+        $data = [
+			'title' => 'Data Beasiswa Calon Peserta Didik TB TK',
+			'navbar' => 'siswa_tbtk',
+            'tbtk' => $this->tbtkModel->getBeasiswa()->getResult()
+		];
+		return view('tbtk/excel_data_beasiswa', $data);
     }
 
     public function tambah_data_beasiswa($slug_nama_lengkap)

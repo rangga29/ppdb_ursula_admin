@@ -27,7 +27,10 @@
                 <table class="table table-lg table-bordered table-striped table-responsive" id="table1">
                     <div class="row">
                         <div class="col-sm-2" style="text-align: right;">
-                            <a href="" class="btn btn-lg btn-primary btn-block">Export CSV</a>
+                            <a href="/siswa_tbtk/excel_data_beasiswa" target="_blank"
+                                class="btn btn-lg btn-primary btn-block">
+                                Export CSV
+                            </a>
                         </div>
                     </div><br>
                     <thead>
