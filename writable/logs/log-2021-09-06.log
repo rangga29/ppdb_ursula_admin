@@ -1,0 +1,159 @@
+CRITICAL - 2021-09-06 21:29:08 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Home.php(77): view('home/index', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 21:29:17 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Home.php(77): view('home/index', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 21:29:19 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Home.php(77): view('home/index', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 21:29:21 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Home.php(77): view('home/index', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 21:29:29 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Home.php(77): view('home/index', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 21:30:27 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/tbtk', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(29): view('siswa/tbtk', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-09-06 22:09:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 2
+OR     (
+`status_dapodik` = = 3
+   )
+  )
+ )' at line 6
+CRITICAL - 2021-09-06 22:09:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 2
+OR     (
+`status_dapodik` = = 3
+   )
+  )
+ )' at line 6
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\TbtkModel.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Home.php(75): App\Models\TbtkModel->countDapodik()
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-06 22:11:43 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Home.php(81): view('home/index', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 23:32:50 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/tbtk', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(29): view('siswa/tbtk', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 23:36:54 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/tbtk', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(29): view('siswa/tbtk', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->index()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 23:39:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->detail('calon-peserta-d...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-06 23:42:31 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tbtk/data_dapod...', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(122): view('tbtk/data_dapod...', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->data_dapodik()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 23:49:41 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dapodik/tbtk', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(122): view('dapodik/tbtk', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->data_dapodik()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-06 23:56:54 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

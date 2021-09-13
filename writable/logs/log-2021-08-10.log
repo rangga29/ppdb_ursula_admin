@@ -1,0 +1,119 @@
+ERROR - 2021-08-10 01:37:53 --> Table 'ppdb_ursula.auth_groups_user' doesn't exist
+CRITICAL - 2021-08-10 01:37:53 --> Table 'ppdb_ursula.auth_groups_user' doesn't exist
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `users`....')
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\User.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->index()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-10 01:38:10 --> Unknown column 'auth_groups_user.user_id' in 'on clause'
+CRITICAL - 2021-08-10 01:38:10 --> Unknown column 'auth_groups_user.user_id' in 'on clause'
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `users`....')
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\User.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->index()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-10 01:38:18 --> Unknown column 'auth_groups_user.group_id' in 'on clause'
+CRITICAL - 2021-08-10 01:38:18 --> Unknown column 'auth_groups_user.group_id' in 'on clause'
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `users`....')
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\User.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->index()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-10 02:25:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Model.php(137): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '4')
+#3 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('4')
+#4 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user', 'before')
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-10 02:26:46 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#2 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->attemptLogin()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-10 02:29:17 --> Undefined variable $title
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\layouts\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layouts/templat...', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/index', Array, true)
+#5 C:\xampp\htdocs\ppdb_admin\app\Controllers\Admin.php(9): view('admin/index')
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-10 02:29:48 --> Undefined property: stdClass::$id_user
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\user\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\User.php(28): view('user/index', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->index()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-10 03:27:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-08-10 03:27:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '4')
+#4 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('4')
+#5 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user', 'before')
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-08-10 03:27:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-08-10 03:27:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '4')
+#4 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('4')
+#5 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user', 'before')
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}

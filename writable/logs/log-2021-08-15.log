@@ -1,0 +1,335 @@
+ERROR - 2021-08-15 00:09:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-08-15 00:09:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\ppdb_admin\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-08-15 00:10:15 --> Too few arguments to function App\Controllers\Siswa_tbtk::change_password(), 0 passed in C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->change_password()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-15 00:17:18 --> Too few arguments to function App\Controllers\Siswa_tbtk::change_password(), 0 passed in C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->change_password()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-15 00:18:06 --> Too few arguments to function App\Controllers\Siswa_tbtk::change_password(), 0 passed in C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->change_password()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-15 00:21:50 --> Too few arguments to function App\Controllers\Siswa_tbtk::change_password(), 0 passed in C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->change_password()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-15 00:22:13 --> Too few arguments to function App\Controllers\Siswa_tbtk::change_password(), 0 passed in C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->change_password()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-15 00:22:26 --> Too few arguments to function App\Controllers\Siswa_tbtk::change_password(), 0 passed in C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->change_password()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-15 00:23:15 --> Too few arguments to function App\Controllers\Siswa_tbtk::change_password(), 0 passed in C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->change_password()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-08-15 05:12:11 --> Unknown column 'asalSekolah' in 'where clause'
+CRITICAL - 2021-08-15 05:12:11 --> Unknown column 'asalSekolah' in 'where clause'
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Model.php(158): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\ppdb_admin\app\Models\SdModel.php(52): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(27): App\Models\SdModel->getSiswaInternal('TK Santa Ursula...')
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->internal()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#10 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-08-15 05:12:25 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\siswa\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/index', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(29): view('siswa/index', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->internal()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-15 05:17:47 --> Undefined property: App\Controllers\Siswa_sd::$tbtkModel
+#0 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-15 06:04:44 --> Undefined property: App\Controllers\Siswa_sd::$tbtkModel
+#0 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-15 06:18:45 --> Undefined property: App\Controllers\Siswa_sd::$tbtkModel
+#0 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-15 07:04:59 --> Invalid file: siswa/sd.php
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/sd.php')
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd', Array, true)
+#2 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(55): view('siswa/sd', Array)
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-15 07:05:17 --> Invalid file: siswa/detail/sd.php
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/detail/sd...')
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/detail/sd', Array, true)
+#2 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(55): view('siswa/detail/sd', Array)
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-15 07:05:29 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\detail\sd.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/sd', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(55): view('detail/sd', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-15 07:06:03 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\detail\sd.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/sd', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(55): view('detail/sd', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-15 07:06:44 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 07:07:19 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 07:17:14 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\detail\sd.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/sd', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(55): view('detail/sd', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd')
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-15 07:17:52 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\siswa\ganti_password.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/ganti_pas...', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(84): view('siswa/ganti_pas...', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->penggantian_password('calon-siswa-sd')
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-15 07:18:30 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\siswa\ganti_password.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/ganti_pas...', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(84): view('siswa/ganti_pas...', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->penggantian_password('calon-siswa-sd')
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-15 15:00:25 --> Undefined variable $navbar
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\layouts\navbar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layouts/navbar', NULL, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Views\layouts\template.php(24): CodeIgniter\View\View->include('layouts/navbar')
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layouts/templat...', Array, true)
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/index', Array, true)
+#9 C:\xampp\htdocs\ppdb_admin\app\Controllers\User.php(43): view('user/index', Array)
+#10 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->detail('4')
+#11 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-08-15 15:19:17 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 15:19:29 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 15:20:04 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 15:20:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 15:22:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 15:23:04 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 15:31:01 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/sd_extern...', Array, true)
+#3 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_sd.php(40): view('siswa/sd_extern...', Array)
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->external()
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-15 15:52:58 --> Undefined variable $siswa_tbtk
+#0 C:\xampp\htdocs\ppdb_admin\app\Views\siswa\smp_internal.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/smp_inter...', Array, true)
+#4 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_smp.php(29): view('siswa/smp_inter...', Array)
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->internal()
+#6 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-15 15:55:27 --> Invalid file: detail/smp.php
+#0 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail/smp.php')
+#1 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/smp', Array, true)
+#2 C:\xampp\htdocs\ppdb_admin\app\Controllers\Siswa_smp.php(55): view('detail/smp', Array)
+#3 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->detail('calon-smp')
+#4 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#5 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ppdb_admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ppdb_admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

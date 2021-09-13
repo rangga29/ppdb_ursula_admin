@@ -1,0 +1,393 @@
+CRITICAL - 2021-08-31 01:48:05 --> Undefined variable $smp
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\tbtk.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/tbtk', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(38): view('detail/tbtk', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 01:48:19 --> Undefined variable $smp
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\tbtk.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/tbtk', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(38): view('detail/tbtk', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('calon-peserta-d...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 01:48:24 --> Undefined variable $smp
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\sd.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 292)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/sd', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_sd.php(55): view('detail/sd', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd-...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 01:48:27 --> Undefined variable $smp
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\sd.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 292)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/sd', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_sd.php(55): view('detail/sd', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd-...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 01:49:08 --> Undefined variable $smp
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\sd.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 292)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/sd', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_sd.php(55): view('detail/sd', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd-...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 01:49:15 --> Undefined variable $smp
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\tbtk.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/tbtk', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(38): view('detail/tbtk', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 02:03:08 --> Invalid file: beasiswa/tbtk.php
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beasiswa/tbtk.p...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('beasiswa/tbtk', Array, true)
+#2 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(116): view('beasiswa/tbtk', Array)
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->beasiswa('silvester-rangg...')
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-31 02:04:08 --> Undefined property: App\Controllers\Siswa_tbtk::$tbtkBeasiswaModel
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->add_beasiswa('19')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-31 02:06:05 --> Table 'ppdb_ursula.tbtk_beasiswa' doesn't exist
+CRITICAL - 2021-08-31 02:06:05 --> Table 'ppdb_ursula.tbtk_beasiswa' doesn't exist
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(146): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->add_beasiswa('19')
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#11 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-08-31 08:57:49 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:00:12 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:01:50 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:03:00 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:03:04 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:03:49 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:05:06 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->detail('calon-siswa-smp...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:06:17 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->detail('calon-siswa-smp...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:08:08 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->detail('calon-siswa-smp...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-31 09:09:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\tbtk.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/tbtk', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(43): view('detail/tbtk', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 09:10:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\detail\tbtk.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/tbtk', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(43): view('detail/tbtk', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail('silvester-rangg...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-31 09:13:38 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/smp', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(60): view('detail/smp', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->detail('calon-siswa-smp...')
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-31 09:14:11 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('detail/smp', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(60): view('detail/smp', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->detail('calon-siswa-smp...')
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-08-31 09:18:21 --> Table 'ppdb_ursula.sd_beasiswa' doesn't exist
+CRITICAL - 2021-08-31 09:18:21 --> Table 'ppdb_ursula.sd_beasiswa' doesn't exist
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\admin_ppdb\app\Models\SdBeasiswaModel.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_sd.php(53): App\Models\SdBeasiswaModel->getBeasiswa('21')
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_sd->detail('calon-siswa-sd-...')
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_sd))
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-08-31 20:04:10 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/smp_inter...', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(32): view('siswa/smp_inter...', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->internal()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-31 20:05:03 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/smp_inter...', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(32): view('siswa/smp_inter...', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->internal()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-31 20:05:04 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/smp_inter...', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(32): view('siswa/smp_inter...', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->internal()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-31 20:05:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/smp_inter...', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(32): view('siswa/smp_inter...', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->internal()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-08-31 20:13:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR `created_at` > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+CRITICAL - 2021-08-31 20:13:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR `created_at` > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\SmpModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(41): App\Models\SmpModel->getSiswaExternal('SD Santa Ursula...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->external()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-31 20:15:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':asal_sekolah != (value) OR `created_at` > '2021-08-27 12:00:00':
+AND `delete...' at line 3
+CRITICAL - 2021-08-31 20:15:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':asal_sekolah != (value) OR `created_at` > '2021-08-27 12:00:00':
+AND `delete...' at line 3
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\SmpModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(41): App\Models\SmpModel->getSiswaExternal('SD Santa Ursula...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->external()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-31 20:16:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR `created_at` > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+CRITICAL - 2021-08-31 20:16:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR `created_at` > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\SmpModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(41): App\Models\SmpModel->getSiswaExternal('SD Santa Ursula...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->external()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-31 20:16:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR 'created_at' > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+CRITICAL - 2021-08-31 20:16:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR 'created_at' > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\SmpModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(41): App\Models\SmpModel->getSiswaExternal('SD Santa Ursula...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->external()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-31 20:16:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR 'created_at' > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+CRITICAL - 2021-08-31 20:16:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR 'created_at' > '2021-08-27 12:00:00'
+AND `deleted_at`...' at line 3
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\SmpModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(41): App\Models\SmpModel->getSiswaExternal('SD Santa Ursula...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->external()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-31 20:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR 'created_at' > '2021-08-27 12:00:00'' at line 3
+CRITICAL - 2021-08-31 20:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR 'created_at' > '2021-08-27 12:00:00'' at line 3
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\SmpModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(41): App\Models\SmpModel->getSiswaExternal('SD Santa Ursula...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->external()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-31 20:17:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR `created_at` > '2021-08-27 12:00:00') AND `deleted_at...' at line 3
+CRITICAL - 2021-08-31 20:17:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Santa Ursula Bandung OR `created_at` > '2021-08-27 12:00:00') AND `deleted_at...' at line 3
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin_ppdb\app\Models\SmpModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_smp.php(41): App\Models\SmpModel->getSiswaExternal('SD Santa Ursula...')
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_smp->external()
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_smp))
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

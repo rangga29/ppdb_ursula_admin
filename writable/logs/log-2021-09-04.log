@@ -1,0 +1,90 @@
+CRITICAL - 2021-09-04 01:58:06 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\siswa\tbtk.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('siswa/tbtk', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(122): view('siswa/tbtk', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->data_dapodik()
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-04 02:01:43 --> Undefined variable $tbtk
+#0 C:\xampp\htdocs\admin_ppdb\app\Views\tbtk\data_dapodik.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tbtk/data_dapod...', Array, true)
+#4 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(122): view('tbtk/data_dapod...', Array)
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->data_dapodik()
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#7 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-04 02:14:10 --> Too few arguments to function App\Controllers\Siswa_tbtk::data_dapodik(), 0 passed in C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->data_dapodik()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-04 02:15:20 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail_data_dapodik('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 02:15:30 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail_data_dapodik('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 02:16:06 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail_data_dapodik('19')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 02:16:54 --> Call to undefined method App\Models\TbtkModel::getDapodik
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(132): CodeIgniter\Model->__call('getDapodik', Array)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail_data_dapodik('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 02:17:35 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tbtk/data_dapod...', Array, true)
+#3 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(134): view('tbtk/data_dapod...', Array)
+#4 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail_data_dapodik('silvester-rangg...')
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#6 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-04 02:17:43 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail_data_dapodik('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 02:18:36 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\admin_ppdb\app\Controllers\Siswa_tbtk.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Siswa_tbtk->detail_data_dapodik('silvester-rangg...')
+#2 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa_tbtk))
+#3 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin_ppdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\admin_ppdb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
