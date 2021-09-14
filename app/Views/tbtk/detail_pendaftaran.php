@@ -302,7 +302,7 @@
                                 </div>
                             </div>
                             <div class="col-auto">
-                                <a href="https://localhost:8083/tbtk/pdf_pendaftaran/<?= $tbtk->slug_nama_lengkap ?>"
+                                <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/pdf_pendaftaran/<?= $tbtk->slug_nama_lengkap ?>"
                                     class="btn btn-primary">Versi PDF</a>
                             </div>
                         </div>

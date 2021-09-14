@@ -45,6 +45,7 @@
             <th>Tingkat</th>
             <th>Uang Pangkal</th>
             <th>Uang Sekolah</th>
+            <th>Tanggal Beasiswa</th>
         </tr>
         <?php $i = 1 ?>
         <?php foreach($tbtk as $siswa_tbtk) : ?>
@@ -52,6 +53,7 @@
             <td><?= $i++ ?></td>
             <td><?= $siswa_tbtk->no_registrasi ?></td>
             <td><?= $siswa_tbtk->nama_lengkap ?></td>
+
             <?php 
                 $tingkat = 'tingkat';
                 if($siswa_tbtk->pilihan_tingkat === '1') {
@@ -79,6 +81,15 @@
                 <?php endif ?>
                 <?php if($siswa_tbtk->uang_sekolah !== null) : ?>
                 Rp.<?= number_format($siswa_tbtk->uang_sekolah, 0, '', '.') ?>,-
+                <?php endif ?>
+            </td>
+
+            <td>
+                <?php if($siswa_tbtk->uang_sekolah === null) : ?>
+                Tidak Ada
+                <?php endif ?>
+                <?php if($siswa_tbtk->uang_sekolah !== null) : ?>
+                <?= date("d F Y", strtotime($siswa_tbtk->created_at)) ?>
                 <?php endif ?>
             </td>
         </tr>

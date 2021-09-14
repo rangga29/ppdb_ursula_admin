@@ -42,11 +42,17 @@
             <th>#</th>
             <th>No Registrasi</th>
             <th>Nama Lengkap</th>
+            <th>Tempat, Tanggal Lahir</th>
             <th>Asal Sekolah</th>
             <th>Tingkat</th>
+            <th>Nama Orangtua</th>
+            <th>Email</th>
+            <th>No. Whatsapp</th>
+            <th>Kode Virtual</th>
             <th>Bukti Pembayaran</th>
             <th>Pendaftaran</th>
             <th>Penerimaan</th>
+            <th>Tanggal Pendaftaran</th>
         </tr>
         <?php $i = 1 ?>
         <?php foreach($tbtk as $siswa_tbtk) : ?>
@@ -54,7 +60,9 @@
             <td><?= $i++ ?></td>
             <td><?= $siswa_tbtk->no_registrasi ?></td>
             <td><?= $siswa_tbtk->nama_lengkap ?></td>
+            <td><?= $siswa_tbtk->kota_lahir ?>, <?= date("d F Y", strtotime($siswa_tbtk->tanggal_lahir)) ?></td>
             <td><?= $siswa_tbtk->asal_sekolah ?></td>
+
             <?php 
                 $tingkat = 'tingkat';
                 if($siswa_tbtk->pilihan_tingkat === '1') {
@@ -66,6 +74,11 @@
                 }
             ?>
             <td><?= $tingkat ?></td>
+
+            <td><?= $siswa_tbtk->nama_orangtua ?></td>
+            <td><?= $siswa_tbtk->email ?></td>
+            <td><?= $siswa_tbtk->no_whatsapp ?></td>
+            <td><?= $siswa_tbtk->no_virtual ?></td>
             <td><?= $siswa_tbtk->bukti_pembayaran ?></td>
 
             <?php if($siswa_tbtk->status_pendaftaran === '1') { ?>
@@ -83,6 +96,8 @@
             <?php } else {  ?>
             <td>Tidak Diterima</td>
             <?php } ?>
+
+            <td><?= date("d F Y", strtotime($siswa_tbtk->created_at)) ?></td>
         </tr>
         <?php endforeach ?>
     </table>
