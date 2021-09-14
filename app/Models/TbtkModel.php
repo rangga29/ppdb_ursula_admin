@@ -130,4 +130,22 @@ class TbtkModel extends Model
         $builder->join('tbtk_dapodik', 'tbtk_dapodik.tbtk_id = tbtk.id', 'left outer');
         return $builder->get();
     }
+
+    public function getKeuangan()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('tbtk');
+        $builder->select('*');
+        $builder->join('tbtk_keuangan', 'tbtk_keuangan.tbtk_id = tbtk.id', 'left outer');
+        return $builder->get();
+    }
+
+    public function getPembayaran()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('tbtk');
+        $builder->select('*');
+        $builder->join('tbtk_pembayaran', 'tbtk_pembayaran.tbtk_id = tbtk.id', 'left outer');
+        return $builder->get();
+    }
 }

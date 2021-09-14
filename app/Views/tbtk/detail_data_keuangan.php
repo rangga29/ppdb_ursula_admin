@@ -194,7 +194,7 @@
                                             </div>
                                         </td>
                                         <td class="col-auto">
-                                            <a href="https://localhost:8083/tbtk/pdf_keuangan/<?= $tbtk->slug_nama_lengkap ?>"
+                                            <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/pdf_keuangan/<?= $tbtk->slug_nama_lengkap ?>"
                                                 class="btn btn-primary">Versi PDF</a>
                                         </td>
                                     </tr>

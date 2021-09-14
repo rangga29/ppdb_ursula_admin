@@ -386,4 +386,24 @@ class Siswa_tbtk extends BaseController
 
         return view('tbtk/detail_data_keuangan', $data);
     }
+
+    public function excel_data_keuangan()
+    {
+        $data = [
+			'title' => 'Data Keuangan Calon Peserta Didik TB TK',
+			'navbar' => 'siswa_tbtk',
+            'tbtk' => $this->tbtkModel->getKeuangan()->getResult()
+		];
+		return view('tbtk/excel/excel_data_keuangan', $data);
+    }
+    
+    public function excel_data_pembayaran()
+    {
+        $data = [
+			'title' => 'Data Pembayaran Calon Peserta Didik TB TK',
+			'navbar' => 'siswa_tbtk',
+            'tbtk' => $this->tbtkModel->getPembayaran()->getResult()
+		];
+		return view('tbtk/excel/excel_data_pembayaran', $data);
+    }
 }
