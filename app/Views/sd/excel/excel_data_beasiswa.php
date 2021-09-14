@@ -15,11 +15,15 @@
             border-collapse: collapse;
         }
 
-        table th,
-        table td {
+        table th {
             border: 1px solid #3c3c3c;
             padding: 3px 8px;
 
+        }
+
+        table td {
+            padding: 3px 8px;
+            text-transform: capitalize;
         }
 
         a {
@@ -45,6 +49,7 @@
             <th>Tingkat</th>
             <th>Uang Pangkal</th>
             <th>Uang Sekolah</th>
+            <th>Tanggal Beasiswa</th>
         </tr>
         <?php $i = 1 ?>
         <?php foreach($sd as $siswa_sd) : ?>
@@ -69,6 +74,15 @@
                 <?php endif ?>
                 <?php if($siswa_sd->uang_sekolah !== null) : ?>
                 Rp.<?= number_format($siswa_sd->uang_sekolah, 0, '', '.') ?>,-
+                <?php endif ?>
+            </td>
+
+            <td>
+                <?php if($siswa_sd->uang_sekolah === null) : ?>
+                Tidak Ada
+                <?php endif ?>
+                <?php if($siswa_sd->uang_sekolah !== null) : ?>
+                <?= date("d F Y", strtotime($siswa_sd->created_at)) ?>
                 <?php endif ?>
             </td>
         </tr>

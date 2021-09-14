@@ -36,7 +36,9 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <h6 class="text-muted font-bold">TOTAL PENDAFTARAN</h6>
-                                                <h6 class="font-extrabold mb-0"><?= count($tbtk_pendaftaran) ?> Siswa
+                                                <h6 class="font-extrabold mb-0">
+                                                    <?= count($tbtk_pendaftaran) + count($sd_pendaftaran) + count($smp_pendaftaran) ?>
+                                                    Siswa
                                                 </h6>
                                             </div>
                                         </div><br>
@@ -48,7 +50,9 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <h6 class="text-muted font-semibold">Total Diterima</h6>
-                                                <h6 class="font-extrabold mb-0"><?= count($tbtk_diterima) ?> Siswa
+                                                <h6 class="font-extrabold mb-0">
+                                                    <?= count($tbtk_diterima) + count($sd_diterima) + count($smp_diterima) ?>
+                                                    Siswa
                                                 </h6>
                                             </div>
                                         </div><br>
@@ -60,7 +64,9 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <h6 class="text-muted font-semibold">Total Tidak Diterima</h6>
-                                                <h6 class="font-extrabold mb-0"><?= count($tbtk_tidak_diterima) ?> Siswa
+                                                <h6 class="font-extrabold mb-0">
+                                                    <?= count($tbtk_tidak_diterima) + count($sd_tidak_diterima) + count($smp_tidak_diterima) ?>
+                                                    Siswa
                                                 </h6>
                                             </div>
                                         </div>
@@ -74,7 +80,9 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <h6 class="text-muted font-bold">DATA DAPODIK</h6>
-                                                <h6 class="font-extrabold mb-0"><?= count($tbtk_dapodik) ?> Siswa
+                                                <h6 class="font-extrabold mb-0">
+                                                    <?= count($tbtk_dapodik) + count($sd_dapodik) + count($smp_dapodik) ?>
+                                                    Siswa
                                                 </h6>
                                             </div>
                                         </div><br>
@@ -86,7 +94,9 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <h6 class="text-muted font-bold">DATA PERNYATAAN</h6>
-                                                <h6 class="font-extrabold mb-0"><?= count($tbtk_pernyataan) ?> Siswa
+                                                <h6 class="font-extrabold mb-0">
+                                                    <?= count($tbtk_pernyataan) + count($sd_pernyataan) + count($smp_pernyataan) ?>
+                                                    Siswa
                                                 </h6>
                                             </div>
                                         </div><br>
@@ -98,7 +108,9 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <h6 class="text-muted font-bold">DATA KEUANGAN</h6>
-                                                <h6 class="font-extrabold mb-0"><?= count($tbtk_keuangan) ?> Siswa
+                                                <h6 class="font-extrabold mb-0">
+                                                    <?= count($tbtk_keuangan) + count($sd_keuangan) + count($smp_keuangan) ?>
+                                                    Siswa
                                                 </h6>
                                             </div>
                                         </div>

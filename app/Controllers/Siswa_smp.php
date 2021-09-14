@@ -395,6 +395,16 @@ class Siswa_smp extends BaseController
         return view('smp/detail_data_dapodik', $data);
     }
 
+    public function excel_data_dapodik()
+    {
+        $data = [
+			'title' => 'Data Dapodik Calon Peserta Didik SMP',
+			'navbar' => 'siswa_smp',
+            'smp' => $this->smpModel->getDapodik()->getResult()
+		];
+		return view('smp/excel/excel_data_dapodik', $data);
+    }
+
     public function data_pernyataan()
     {
         $data = [
@@ -471,5 +481,25 @@ class Siswa_smp extends BaseController
         }
 
         return view('smp/detail_data_keuangan', $data);
+    }
+
+    public function excel_data_keuangan()
+    {
+        $data = [
+			'title' => 'Data Keuangan Calon Peserta Didik SMP',
+			'navbar' => 'siswa_smp',
+            'smp' => $this->smpModel->getKeuangan()->getResult()
+		];
+		return view('smp/excel/excel_data_keuangan', $data);
+    }
+    
+    public function excel_data_pembayaran()
+    {
+        $data = [
+			'title' => 'Data Pembayaran Calon Peserta Didik SMP',
+			'navbar' => 'siswa_smp',
+            'smp' => $this->smpModel->getPembayaran()->getResult()
+		];
+		return view('smp/excel/excel_data_pembayaran', $data);
     }
 }

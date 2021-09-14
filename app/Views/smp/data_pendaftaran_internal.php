@@ -49,7 +49,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_internal/1" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>
@@ -165,7 +165,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_internal/2" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>
@@ -283,7 +283,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_internal/3" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>
@@ -401,7 +401,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_internal/4" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>

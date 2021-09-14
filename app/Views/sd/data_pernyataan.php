@@ -46,7 +46,7 @@
 
                             <td>
                                 <?php if($siswa_sd->status_pernyataan !== '1') { ?>
-                                <a href="https://localhost:8083/sd/surat_pernyataan/<?= $siswa_sd->slug_nama_lengkap ?>"
+                                <a href="https://convertppdb.santaursula-bdg.sch.id/sd/surat_pernyataan/<?= $siswa_sd->slug_nama_lengkap ?>"
                                     target="_blank">
                                     Surat Pernyataan
                                 </a>

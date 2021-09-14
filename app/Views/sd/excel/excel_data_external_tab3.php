@@ -15,11 +15,15 @@
             border-collapse: collapse;
         }
 
-        table th,
-        table td {
+        table th {
             border: 1px solid #3c3c3c;
             padding: 3px 8px;
 
+        }
+
+        table td {
+            padding: 3px 8px;
+            text-transform: capitalize;
         }
 
         a {
@@ -32,7 +36,7 @@
     </style>
     <?php
 	header("Content-type: application/vnd-ms-excel");
-	header("Content-Disposition: attachment; filename=Data Pendaftaran SD Internal (Diterima) [" . date("Ymd") . "].xls");
+	header("Content-Disposition: attachment; filename=Data Pendaftaran SD External (Diterima) [" . date("Ymd") . "].xls");
 	?>
     <center>
         <h1><?= $title ?> [<?= date("Ymd") ?>]</h1>
@@ -42,11 +46,17 @@
             <th>#</th>
             <th>No Registrasi</th>
             <th>Nama Lengkap</th>
+            <th>Tempat, Tanggal Lahir</th>
             <th>Asal Sekolah</th>
             <th>Tingkat</th>
+            <th>Nama Orangtua</th>
+            <th>Email</th>
+            <th>No. Whatsapp</th>
+            <th>Kode Virtual</th>
             <th>Bukti Pembayaran</th>
             <th>Pendaftaran</th>
             <th>Penerimaan</th>
+            <th>Tanggal Pendaftaran</th>
         </tr>
         <?php $i = 1 ?>
         <?php foreach($sd as $siswa_sd) : ?>
@@ -55,18 +65,13 @@
             <td><?= $i++ ?></td>
             <td><?= $siswa_sd->no_registrasi ?></td>
             <td><?= $siswa_sd->nama_lengkap ?></td>
+            <td><?= $siswa_sd->kota_lahir ?>, <?= date("d F Y", strtotime($siswa_sd->tanggal_lahir)) ?></td>
             <td><?= $siswa_sd->asal_sekolah ?></td>
-            <?php 
-                $tingkat = 'tingkat';
-                if($siswa_sd->pilihan_tingkat === '1') {
-                    $tingkat = 'TB';
-                } else if($siswa_sd->pilihan_tingkat === '2') {
-                    $tingkat = 'TK A';
-                } else {
-                    $tingkat = 'TK B';
-                }
-            ?>
-            <td><?= $tingkat ?></td>
+            <td>Kelas <?= $siswa_sd->pilihan_tingkat ?></td>
+            <td><?= $siswa_sd->nama_orangtua ?></td>
+            <td><?= $siswa_sd->email ?></td>
+            <td><?= $siswa_sd->no_whatsapp ?></td>
+            <td><?= $siswa_sd->no_virtual ?></td>
             <td><?= $siswa_sd->bukti_pembayaran ?></td>
 
             <?php if($siswa_sd->status_pendaftaran === '1') { ?>
@@ -84,6 +89,8 @@
             <?php } else {  ?>
             <td>Tidak Diterima</td>
             <?php } ?>
+
+            <td><?= date("d F Y", strtotime($siswa_sd->created_at)) ?></td>
         </tr>
         <?php endif ?>
         <?php endforeach ?>

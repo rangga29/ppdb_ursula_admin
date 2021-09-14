@@ -29,7 +29,7 @@
                         <div class="col-sm-2" style="text-align: right;">
                             <a href="/siswa_smp/excel_data_beasiswa" target="_blank"
                                 class="btn btn-lg btn-primary btn-block">
-                                Export CSV
+                                Export Excel
                             </a>
                         </div>
                     </div><br>

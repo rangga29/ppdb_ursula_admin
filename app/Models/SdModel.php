@@ -147,4 +147,30 @@ class SdModel extends Model
         $builder->join('sd_beasiswa', 'sd_beasiswa.sd_id = sd.id', 'left outer');
         return $builder->get();
     }
+    public function getDapodik()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('sd');
+        $builder->select('*');
+        $builder->join('sd_dapodik', 'sd_dapodik.sd_id = sd.id', 'left outer');
+        return $builder->get();
+    }
+
+    public function getKeuangan()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('sd');
+        $builder->select('*');
+        $builder->join('sd_keuangan', 'sd_keuangan.sd_id = sd.id', 'left outer');
+        return $builder->get();
+    }
+
+    public function getPembayaran()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('sd');
+        $builder->select('*');
+        $builder->join('sd_pembayaran', 'sd_pembayaran.sd_id = sd.id', 'left outer');
+        return $builder->get();
+    }
 }

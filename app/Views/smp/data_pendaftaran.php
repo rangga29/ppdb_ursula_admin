@@ -49,7 +49,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_pendaftaran/1" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>
@@ -165,7 +165,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_pendaftaran/2" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>
@@ -283,7 +283,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_pendaftaran/3" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>
@@ -401,7 +401,7 @@
                                 <div class="col-sm-2" style="text-align: right;">
                                     <a href="/siswa_smp/excel_data_pendaftaran/4" target="_blank"
                                         class="btn btn-lg btn-primary btn-block">
-                                        Export CSV
+                                        Export Excel
                                     </a>
                                 </div>
                             </div><br>

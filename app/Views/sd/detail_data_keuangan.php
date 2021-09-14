@@ -78,27 +78,9 @@
                                     <?php
                                     if ($beasiswa) {
                                         $pengurangan_uang_pangkal = $beasiswa->uang_pangkal;
-                                        $uang_pangkal = 7500000 - $pengurangan_uang_pangkal;
-                                        if($sd->pilihan_tingkat === '1')
-                                        {
-                                            $sub_unit = 'TB';
-                                            $pengurangan_uang_sekolah = $beasiswa->uang_sekolah;
-                                            $uang_sekolah = 725000 - $pengurangan_uang_sekolah;
-                                        } else {
-                                            $sub_unit = 'TK';
-                                            $pengurangan_uang_sekolah = $beasiswa->uang_sekolah;
-                                            $uang_sekolah = 700000 - $pengurangan_uang_sekolah;
-                                        }
-                                    } else {
-                                        $uang_pangkal = 7500000;
-                                        if($sd->pilihan_tingkat === '1')
-                                        {
-                                            $sub_unit = 'TB';
-                                            $uang_sekolah = 725000;
-                                        } else {
-                                            $sub_unit = 'TK';
-                                            $uang_sekolah = 700000;
-                                        }
+                                        $uang_pangkal = 9500000 - $pengurangan_uang_pangkal;
+                                        $pengurangan_uang_sekolah = $beasiswa->uang_sekolah;
+                                        $uang_sekolah = 750000 - $pengurangan_uang_sekolah;
                                     }
                                     ?>
                                     <tr>
@@ -194,7 +176,7 @@
                                             </div>
                                         </td>
                                         <td class="col-auto">
-                                            <a href="https://localhost:8083/sd/pdf_keuangan/<?= $sd->slug_nama_lengkap ?>"
+                                            <a href="https://convertppdb.santaursula-bdg.sch.id/sd/pdf_keuangan/<?= $sd->slug_nama_lengkap ?>"
                                                 class="btn btn-primary">Versi PDF</a>
                                         </td>
                                     </tr>

@@ -36,7 +36,7 @@
     </style>
     <?php
 	header("Content-type: application/vnd-ms-excel");
-	header("Content-Disposition: attachment; filename=Data Beasiswa TBTK [" . date("Ymd") . "].xls");
+	header("Content-Disposition: attachment; filename=Data Dapodik TBTK [" . date("Ymd") . "].xls");
 	?>
     <center>
         <h1><?= $title ?> [<?= date("Ymd") ?>]</h1>

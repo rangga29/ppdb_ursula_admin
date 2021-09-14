@@ -156,4 +156,30 @@ class SmpModel extends Model
         $builder->join('smp_beasiswa', 'smp_beasiswa.smp_id = smp.id', 'left outer');
         return $builder->get();
     }
+    public function getDapodik()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('smp');
+        $builder->select('*');
+        $builder->join('smp_dapodik', 'smp_dapodik.smp_id = smp.id', 'left outer');
+        return $builder->get();
+    }
+
+    public function getKeuangan()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('smp');
+        $builder->select('*');
+        $builder->join('smp_keuangan', 'smp_keuangan.smp_id = smp.id', 'left outer');
+        return $builder->get();
+    }
+
+    public function getPembayaran()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('smp');
+        $builder->select('*');
+        $builder->join('smp_pembayaran', 'smp_pembayaran.smp_id = smp.id', 'left outer');
+        return $builder->get();
+    }
 }

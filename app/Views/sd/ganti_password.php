@@ -17,9 +17,9 @@
         </div>
     </div>
     <section class="section">
-        <form action="/siswa_sd/change_password/<?= $sd['id'] ?>" method="post" enctype="multipart/form-data">
+        <form action="/siswa_sd/change_password/<?= $sd->id ?>" method="post" enctype="multipart/form-data">
             <?= csrf_field() ?>
-            <input type="hidden" name="slug_nama_lengkap" value="<?= $sd['slug_nama_lengkap'] ?>">
+            <input type="hidden" name="slug_nama_lengkap" value="<?= $sd->slug_nama_lengkap ?>">
             <div class="card">
                 <div class="card-body">
                     <div class="row">

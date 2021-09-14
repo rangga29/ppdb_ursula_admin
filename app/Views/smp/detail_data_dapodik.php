@@ -284,7 +284,7 @@
                                             </div>
                                         </td>
                                         <td class="col-auto">
-                                            <a href="https://localhost:8083/smp/pdf_dapodik/<?= $smp->slug_nama_lengkap ?>"
+                                            <a href="https://convertppdb.santaursula-bdg.sch.id/smp/pdf_dapodik/<?= $smp->slug_nama_lengkap ?>"
                                                 class="btn btn-primary">Versi PDF</a>
                                         </td>
                                     </tr>

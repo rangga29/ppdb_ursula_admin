@@ -394,6 +394,16 @@ class Siswa_sd extends BaseController
         return view('sd/detail_data_dapodik', $data);
     }
 
+    public function excel_data_dapodik()
+    {
+        $data = [
+			'title' => 'Data Dapodik Calon Peserta Didik SD',
+			'navbar' => 'siswa_sd',
+            'sd' => $this->sdModel->getDapodik()->getResult()
+		];
+		return view('sd/excel/excel_data_dapodik', $data);
+    }
+
     public function data_pernyataan()
     {
         $data = [
@@ -470,5 +480,25 @@ class Siswa_sd extends BaseController
         }
 
         return view('sd/detail_data_keuangan', $data);
+    }
+
+    public function excel_data_keuangan()
+    {
+        $data = [
+			'title' => 'Data Keuangan Calon Peserta Didik SD',
+			'navbar' => 'siswa_sd',
+            'sd' => $this->sdModel->getKeuangan()->getResult()
+		];
+		return view('sd/excel/excel_data_keuangan', $data);
+    }
+    
+    public function excel_data_pembayaran()
+    {
+        $data = [
+			'title' => 'Data Pembayaran Calon Peserta Didik SD',
+			'navbar' => 'siswa_sd',
+            'sd' => $this->sdModel->getPembayaran()->getResult()
+		];
+		return view('sd/excel/excel_data_pembayaran', $data);
     }
 }

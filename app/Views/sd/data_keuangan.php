@@ -21,8 +21,15 @@
             <div class="card-body">
                 <table class="table table-lg table-bordered table-striped table-responsive" id="table1">
                     <div class="row">
-                        <div class="col-sm-2" style="text-align: right;">
-                            <a href="" class="btn btn-lg btn-primary btn-block">Export CSV</a>
+                        <div class="col-sm-3" style="text-align: right;">
+                            <a href="/siswa_sd/excel_data_keuangan" class="btn btn-lg btn-primary btn-block">Export
+                                Excel [Data Keuangan]
+                            </a>
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            <a href="/siswa_sd/excel_data_pembayaran" class="btn btn-lg btn-primary btn-block">Export
+                                Excel [Data Pembayaran]
+                            </a>
                         </div>
                     </div><br>
                     <thead>
@@ -60,7 +67,7 @@
 
                             <td>
                                 <?php if($siswa_sd->status_keuangan !== '1') { ?>
-                                <a href="https://localhost:8083/sd/surat_keuangan/<?= $siswa_sd->slug_nama_lengkap ?>"
+                                <a href="https://converterppdb.santaursula-bdg.sch.id/sd/surat_keuangan/<?= $siswa_sd->slug_nama_lengkap ?>"
                                     target="_blank">
                                     Surat Keuangan
                                 </a>
