@@ -121,4 +121,13 @@ class TbtkModel extends Model
         $builder->join('tbtk_beasiswa', 'tbtk_beasiswa.tbtk_id = tbtk.id', 'left outer');
         return $builder->get();
     }
+
+    public function getDapodik()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('tbtk');
+        $builder->select('*');
+        $builder->join('tbtk_dapodik', 'tbtk_dapodik.tbtk_id = tbtk.id', 'left outer');
+        return $builder->get();
+    }
 }

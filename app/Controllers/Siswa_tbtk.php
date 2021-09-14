@@ -299,6 +299,16 @@ class Siswa_tbtk extends BaseController
         return view('tbtk/detail_data_dapodik', $data);
     }
 
+    public function excel_data_dapodik()
+    {
+        $data = [
+			'title' => 'Data Dapodik Calon Peserta Didik TB TK',
+			'navbar' => 'siswa_tbtk',
+            'tbtk' => $this->tbtkModel->getDapodik()->getResult()
+		];
+		return view('tbtk/excel/excel_data_dapodik', $data);
+    }
+
     public function data_pernyataan()
     {
         $data = [

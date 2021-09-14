@@ -15,11 +15,15 @@
             border-collapse: collapse;
         }
 
-        table th,
-        table td {
+        table th {
             border: 1px solid #3c3c3c;
             padding: 3px 8px;
 
+        }
+
+        table td {
+            padding: 3px 8px;
+            text-transform: capitalize;
         }
 
         a {
