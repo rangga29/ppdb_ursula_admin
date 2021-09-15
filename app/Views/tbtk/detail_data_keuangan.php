@@ -182,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <!-- <div class="card">
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-hover table-lg">
@@ -194,15 +194,19 @@
                                             </div>
                                         </td>
                                         <td class="col-auto">
+                                            <a href="http://localhost:8085/ppdb_converter/tbtk/pdf_keuangan/<?= $tbtk->slug_nama_lengkap ?>"
+                                                target="_blank" class="btn btn-primary">Versi PDF</a>
+                                        </td>
+                                        <td class="col-auto">
                                             <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/pdf_keuangan/<?= $tbtk->slug_nama_lengkap ?>"
-                                                class="btn btn-primary">Versi PDF</a>
+                                                target="_blank" class="btn btn-primary">Versi PDF</a>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="row">
@@ -288,9 +292,13 @@
                                         <?php if($pembayaran_tahap_1) { ?>
                                         <td class="col-auto">
                                             <p class=" mb-0">
-                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_1->bukti_bayar ?>"
+                                                <img src="http://localhost:8080/upload/bukti_tahap_1/tbtk/<?= $pembayaran_tahap_1->bukti_bayar ?>"
                                                     alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
                                             </p>
+                                            <!-- <p class=" mb-0">
+                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_1->bukti_bayar ?>"
+                                                    alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
+                                            </p> -->
                                         </td>
 
                                         <?php } else { ?>
@@ -379,9 +387,13 @@
                                         <?php if($pembayaran_tahap_2) { ?>
                                         <td class="col-auto">
                                             <p class=" mb-0">
-                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_2->bukti_bayar ?>"
+                                                <img src="http://localhost:8080/upload/bukti_tahap_2/tbtk/<?= $pembayaran_tahap_2->bukti_bayar ?>"
                                                     alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
                                             </p>
+                                            <!-- <p class=" mb-0">
+                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_2->bukti_bayar ?>"
+                                                    alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
+                                            </p> -->
                                         </td>
                                         <?php } else { ?>
                                         <td class="col-auto">
@@ -469,9 +481,13 @@
                                         <?php if($pembayaran_tahap_3) { ?>
                                         <td class="col-auto">
                                             <p class=" mb-0">
-                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_3->bukti_bayar ?>"
+                                                <img src="http://localhost:8080/upload/bukti_tahap_3/tbtk/<?= $pembayaran_tahap_3->bukti_bayar ?>"
                                                     alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
                                             </p>
+                                            <!-- <p class=" mb-0">
+                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_3->bukti_bayar ?>"
+                                                    alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
+                                            </p> -->
                                         </td>
                                         <?php } else { ?>
                                         <td class="col-auto">
@@ -559,9 +575,13 @@
                                         <?php if($pembayaran_tahap_4) { ?>
                                         <td class="col-auto">
                                             <p class=" mb-0">
-                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_4->bukti_bayar ?>"
+                                                <img src="http://localhost:8080/upload/bukti_tahap_4/tbtk/<?= $pembayaran_tahap_4->bukti_bayar ?>"
                                                     alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
                                             </p>
+                                            <!-- <p class=" mb-0">
+                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $pembayaran_tahap_4->bukti_bayar ?>"
+                                                    alt="<?= $tbtk->nama_lengkap ?>" style="max-width: 300px;">
+                                            </p> -->
                                         </td>
                                         <?php } else { ?>
                                         <td class="col-auto">

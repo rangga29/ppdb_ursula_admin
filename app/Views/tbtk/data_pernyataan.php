@@ -56,7 +56,11 @@
 
                             <td>
                                 <?php if($siswa_tbtk->status_pernyataan !== '1') { ?>
-                                <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/surat_pernyataan/<?= $siswa_tbtk->slug_nama_lengkap ?>"
+                                <!-- <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/surat_pernyataan/<?= $siswa_tbtk->slug_nama_lengkap ?>"
+                                    target="_blank">
+                                    Surat Pernyataan
+                                </a> -->
+                                <a href="http://localhost:8085/ppdb_converter/tbtk/surat_pernyataan/<?= $siswa_tbtk->slug_nama_lengkap ?>"
                                     target="_blank">
                                     Surat Pernyataan
                                 </a>

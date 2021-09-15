@@ -125,9 +125,13 @@
                                                     </div>
                                                 </td>
                                                 <td class="col-auto">
-                                                    <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $tbtk->bukti_pembayaran ?>"
+                                                    <img src="http://localhost:8080/upload/bukti_pembayaran/tbtk/<?= $tbtk->bukti_pembayaran ?>"
                                                         style="width:100%;max-width:400px">
                                                 </td>
+                                                <!-- <td class="col-auto">
+                                                    <img src="https://ppdb.santaursula-bdg.sch.id/upload/bukti_pembayaran/tbtk/<?= $tbtk->bukti_pembayaran ?>"
+                                                        style="width:100%;max-width:400px">
+                                                </td> -->
                                             </tr>
                                         </tbody>
                                     </table>
@@ -302,9 +306,13 @@
                                 </div>
                             </div>
                             <div class="col-auto">
-                                <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/pdf_pendaftaran/<?= $tbtk->slug_nama_lengkap ?>"
+                                <a href="http://localhost:8085/ppdb_converter/tbtk/pdf_pendaftaran/<?= $tbtk->slug_nama_lengkap ?>"
                                     class="btn btn-primary" target="_blank">Versi PDF</a>
                             </div>
+                            <!-- <div class="col-auto">
+                                <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/pdf_pendaftaran/<?= $tbtk->slug_nama_lengkap ?>"
+                                    class="btn btn-primary" target="_blank">Versi PDF</a>
+                            </div> -->
                         </div>
                         <hr>
                         <div class="row">

@@ -47,7 +47,7 @@
                         <table class="table table-lg table-bordered table-striped table-responsive" id="table1">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="/siswa_tbtk/excel_data_pendaftaran/1" target="_blank"
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/1"
                                         class="btn btn-lg btn-primary btn-block">
                                         Export Excel
                                     </a>
@@ -164,7 +164,7 @@
                         <table class="table table-lg table-bordered table-striped table-responsive" id="table2">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="/siswa_tbtk/excel_data_pendaftaran/2" target="_blank"
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/2"
                                         class="btn btn-lg btn-primary btn-block">
                                         Export Excel
                                     </a>
@@ -283,7 +283,7 @@
                         <table class="table table-lg table-bordered table-striped table-responsive" id="table3">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="/siswa_tbtk/excel_data_pendaftaran/3" target="_blank"
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/3"
                                         class="btn btn-lg btn-primary btn-block">
                                         Export Excel
                                     </a>
@@ -402,7 +402,7 @@
                         <table class="table table-lg table-bordered table-striped table-responsive" id="table4">
                             <div class="row">
                                 <div class="col-sm-2" style="text-align: right;">
-                                    <a href="/siswa_tbtk/excel_data_pendaftaran/4" target="_blank"
+                                    <a href="/siswa_tbtk/excel_data_pendaftaran/4"
                                         class="btn btn-lg btn-primary btn-block">
                                         Export Excel
                                     </a>

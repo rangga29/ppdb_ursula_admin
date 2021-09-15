@@ -227,9 +227,13 @@
                                             </div>
                                         </td>
                                         <td class="col-auto">
-                                            <img src="https://ppdb.santaursula-bdg.sch.id/upload/pas_foto/tbtk/<?= $tbtk->slug_nama_lengkap ?>"
+                                            <img src="http://localhost:8080/upload/pas_foto/tbtk/<?= $dapodik->pas_foto ?>"
                                                 alt="<?= $dapodik->nama_lengkap ?>" style="max-width: 300px;">
                                         </td>
+                                        <!-- <td class="col-auto">
+                                            <img src="https://ppdb.santaursula-bdg.sch.id/upload/pas_foto/tbtk/<?= $dapodik->pas_foto ?>"
+                                                alt="<?= $dapodik->nama_lengkap ?>" style="max-width: 300px;">
+                                        </td> -->
                                     </tr>
                                 </tbody>
                             </table>
@@ -284,9 +288,13 @@
                                             </div>
                                         </td>
                                         <td class="col-auto">
-                                            <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/pdf_dapodik/<?= $tbtk->slug_nama_lengkap ?>"
-                                                class="btn btn-primary">Versi PDF</a>
+                                            <a href="http://localhost:8085/ppdb_converter/tbtk/pdf_dapodik/<?= $tbtk->slug_nama_lengkap ?>"
+                                                target="_blank" class="btn btn-primary">Versi PDF</a>
                                         </td>
+                                        <!-- <td class="col-auto">
+                                            <a href="https://converterppdb.santaursula-bdg.sch.id/tbtk/pdf_dapodik/<?= $tbtk->slug_nama_lengkap ?>"
+                                                target="_blank" class="btn btn-primary">Versi PDF</a>
+                                        </td> -->
                                     </tr>
                                 </tbody>
                             </table>
@@ -329,9 +337,13 @@
                                                 </div>
                                             </td>
                                             <td class="col-auto">
-                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/scan_kk/tbtk/<?= $tbtk->slug_nama_lengkap ?>"
+                                                <img src="http://localhost:8080/upload/scan_kk/tbtk/<?= $dapodik->scan_kk ?>"
                                                     alt="<?= $dapodik->nama_lengkap ?>" style="max-width: 300px;">
                                             </td>
+                                            <!-- <td class="col-auto">
+                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/scan_kk/tbtk/<?= $dapodik->scan_kk ?>"
+                                                    alt="<?= $dapodik->nama_lengkap ?>" style="max-width: 300px;">
+                                            </td> -->
                                         </tr>
                                         <tr>
                                             <td class="col-4">
@@ -340,9 +352,13 @@
                                                 </div>
                                             </td>
                                             <td class="col-auto">
-                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/scan_ak/tbtk/<?= $tbtk->slug_nama_lengkap ?>"
+                                                <img src="http://localhost:8080/upload/scan_ak/tbtk/<?= $dapodik->scan_ak ?>"
                                                     alt="<?= $dapodik->nama_lengkap ?>" style="max-width: 300px;">
                                             </td>
+                                            <!-- <td class="col-auto">
+                                                <img src="https://ppdb.santaursula-bdg.sch.id/upload/scan_ak/tbtk/<?= $dapodik->scan_ak ?>"
+                                                    alt="<?= $dapodik->nama_lengkap ?>" style="max-width: 300px;">
+                                            </td> -->
                                         </tr>
                                     </tbody>
                                 </table>
@@ -379,7 +395,7 @@
                                         <tr>
                                             <td class="col-4">
                                                 <div class="d-flex align-items-center">
-                                                    <p class="font-bold ms-3 mb-0">Nomor Kartu Keluarga</p>
+                                                    <p class="font-bold ms-3 mb-0">Alamat Tempat Tinggal</p>
                                                 </div>
                                             </td>
                                             <td class="col-auto">
